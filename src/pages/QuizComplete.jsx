@@ -23,7 +23,7 @@ const QuizComplete = () => {
                 <img 
                     src={carPicture} 
                     alt={carName}
-                    width='60%'
+                    height='60%'
                 />
                 <Typography 
                     mt={3} 
