@@ -6,7 +6,7 @@ const LinkButton = ({ to, text, textProps, buttonProps }) => {
     <Box m={1}>
       <Button 
         variant="contained" 
-        onClick={() => window.location.href = to || '/'}
+        onClick={() => window.location.href = to || '/judgemental-car-quiz'}
         {...buttonProps}
       >
         <Typography {...textProps}>

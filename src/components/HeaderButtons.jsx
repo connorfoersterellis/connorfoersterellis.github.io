@@ -5,7 +5,7 @@ const HeaderButtons = () => {
     return (
         <header className="App-header">
             <LinkButton
-                to='/'
+                to='/judgemental-car-quiz'
                 text='Home'
                 textProps={{
                     fontSize: 20

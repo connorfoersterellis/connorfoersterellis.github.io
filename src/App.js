@@ -29,7 +29,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <BrowserRouter>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="/judgemental-car-quiz" element={<Home />} />
             <Route path="/quiz" element={<Quiz />} />
             <Route path="/quiz-complete" element={<QuizComplete />} />
           </Routes>
