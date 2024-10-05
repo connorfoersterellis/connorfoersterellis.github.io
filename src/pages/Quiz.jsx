@@ -2,12 +2,18 @@ import React from 'react'
 
 import '../App.css'
 import Question from '../components/Question'
-import HeaderButtons from '../components/HeaderButtons'
+import LinkButton from '../components/LinkButton'
 
 const Quiz = () => {
     return (
         <div className="App">
-            <HeaderButtons/>
+            <LinkButton
+                to='/judgemental-car-quiz'
+                text='Home'
+                textProps={{
+                    fontSize: 20
+                }}
+            />
             <div className="App-content">
                 <Question/>
             </div>
