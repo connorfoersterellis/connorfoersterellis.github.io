@@ -28,7 +28,7 @@ question[0] = {
           }
                question[5] = { 
                     questionText: "What shoe are you pickin",
-                    answers: [{ response: "Snow Boot", calculatedCar:  carInfo.VolkswagenType2 },
+                    answers: [{ response: "Snow Boot", calculatedCar:  carInfo.SherpUTV },
                               { response: "Flip Flop", calculatedCar: carInfo.JeepWrangler },
                               { response: "Saddle Shoes", nextQuestion: 7 }]
                }
