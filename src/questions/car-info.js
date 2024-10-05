@@ -35,7 +35,7 @@ const carInfo = {
     SubaruBaja: {
         Name: "Subaru Baja",
         Link: "https://en.wikipedia.org/wiki/Subaru_Baja",
-        Picture: "https://en.wikipedia.org/wiki/File:Subaru_Baja_2.5_2003_(13155493485).jpg",
+        Picture: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Subaru_Baja_2.5_2003_%2813155493485%29.jpg/800px-Subaru_Baja_2.5_2003_%2813155493485%29.jpg",
         Description: "The Subaru Baja is an all-wheel-drive, four passenger, four-door coupe utility manufactured from 2002 to 2006 by Subaru and marketed for model years 2003 to 2006.",
         Silhoutte: SubaruBaja,
         Reason:"The Baja is a mullet of a car. Because of the mountain bike pick, you get the subaru mullet car."
