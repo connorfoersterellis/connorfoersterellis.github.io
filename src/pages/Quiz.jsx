@@ -7,13 +7,15 @@ import LinkButton from '../components/LinkButton'
 const Quiz = () => {
     return (
         <div className="App">
-            <LinkButton
-                to='/judgemental-car-quiz'
-                text='Home'
-                textProps={{
-                    fontSize: 20
-                }}
-            />
+            <header className="App-header">
+                <LinkButton
+                    to='/judgemental-car-quiz'
+                    text='Home'
+                    textProps={{
+                        fontSize: 20
+                    }}
+                />
+            </header>
             <div className="App-content">
                 <Question/>
             </div>
